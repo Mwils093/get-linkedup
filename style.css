@@ -269,4 +269,18 @@ footer p {
     font-size: 16px;
     margin: 5px;
   }
+  /* Desktop styles - no media query */
+
+@media screen and (max-width: 1024px) {
+  /* Small laptops / large tablets */
+}
+
+@media screen and (max-width: 768px) {
+  /* iPads and most tablets */
+}
+
+@media screen and (max-width: 480px) {
+  /* Phones */
+}
+
 }
