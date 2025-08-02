@@ -269,14 +269,16 @@ footer p {
     font-size: 16px;
     margin: 5px;
   }
-  /* Desktop styles - no media query */
+}
+
+/* Desktop styles - no media query */
 
 @media screen and (max-width: 1024px) {
-  
   /* Small laptops / large tablets */
 }
 
-@media screen and (max-width: 768px) {.workspace img 
+@media screen and (max-width: 768px) {
+  .workspace img {
     height: auto;
     max-height: 300px;
     object-fit: cover;
@@ -286,6 +288,4 @@ footer p {
 
 @media screen and (max-width: 480px) {
   /* Phones */
-}
-
 }
