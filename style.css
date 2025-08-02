@@ -272,10 +272,15 @@ footer p {
   /* Desktop styles - no media query */
 
 @media screen and (max-width: 1024px) {
+  
   /* Small laptops / large tablets */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {.workspace img 
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
   /* iPads and most tablets */
 }
 
