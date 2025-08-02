@@ -277,12 +277,12 @@ footer p {
   /* Small laptops / large tablets */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 675px) {
   .workspace img {
     height: auto;
     max-height: 300px;
     object-fit: cover;
-  
+  }
   /* iPads and most tablets */
 }
 
