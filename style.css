@@ -278,11 +278,13 @@ footer p {
 }
 
 @media screen and (max-width: 675px) {
-  .workspace img {
-    height: auto;
-    max-height: 300px;
-    object-fit: cover;
-  }
+   .workspace img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 0 0 10px 10px;
+}
   /* iPads and most tablets */
 }
 
